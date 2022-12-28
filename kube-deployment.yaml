@@ -18,13 +18,11 @@ spec:
       - name: nareshdt99
         image: nareshdt99/abctechnologies-1.0
         livenessProbe:
-            port: 8080
           initialDelaySeconds: 30
           periodSeconds: 10
           failureThreshold: 4
           timeoutSeconds: 120
         readinessProbe:
-            port: 8080
           initialDelaySeconds: 30
           periodSeconds: 10
           failureThreshold: 4
