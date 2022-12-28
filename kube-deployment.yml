@@ -18,4 +18,4 @@ spec:
       - name: nareshdt99
         image: nareshdt99/abctechnologies-1.0
         ports:
-        - containerPort: 80
+        - containerPort: 8080
