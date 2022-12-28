@@ -15,7 +15,7 @@ spec:
         app: kubeserve
     spec:
       containers:
-      - name: nareshdt99
+        name: nareshdt99
         image: nareshdt99/abctechnologies-1.0       
         ports:
         - containerPort: 8080
