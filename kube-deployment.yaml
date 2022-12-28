@@ -19,3 +19,15 @@ spec:
         image: nareshdt99/abctechnologies-1.0       
         ports:
         - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kubeserve-svc
+spec:
+  selector:
+    app.kubernetes.io/name: kubeserve-deployment
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
