@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: kubeserve
-        image: abctechnologies:1.0
+        image: abctechnologies-1.0
         ports:
         - containerPort: 80
