@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kubeserve-deployment
-  namespace: app
   labels:
     app: kubeserve
 spec:
